@@ -46,6 +46,11 @@
             <name>MIT License</name>
             <distribution>repo</distribution>
         </license>
+        <license>
+            <name>GPL</name>
+            <url>https://github.com/josedvq/colpick-jQuery-Color-Picker/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
     </licenses>
 
     <scm>
