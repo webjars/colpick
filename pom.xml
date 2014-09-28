@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>colpick</artifactId>
-    <version>2.0.2-SNAPSHOT</version>
+    <version>2.0.2</version>
     <name>Colpick</name>
     <description>WebJar for Colpick</description>
     <url>http://webjars.org</url>
@@ -57,7 +57,7 @@
         <url>http://github.com/webjars/colpick</url>
         <connection>scm:git:https://github.com/webjars/colpick.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/colpick.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>colpick-2.0.2</tag>
     </scm>
     
     <build>
@@ -78,7 +78,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/colpick-jQuery-Color-Picker-${upstream.version}" includes="colpick* js/ css/"/>
+                                    <fileset dir="${project.build.directory}/colpick-jQuery-Color-Picker-${upstream.version}" includes="colpick* js/ css/" />
                                 </move>
                             </target>
                         </configuration>
