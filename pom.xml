@@ -19,12 +19,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>2.0.2</upstream.version>
-        <upstream.url>https://github.com/josedvq/colpick-jQuery-Color-Picker/archive/2.0.2.zip</upstream.url>
+        <upstream.url>https://github.com/josedvq/colpick-jQuery-Color-Picker/archive/${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${version}</destDir>
         <requirejs>
             {
                 "paths": {
-                    "colpick": "WEBJAR_ID"
+                    "colpick": "js/colpick"
                 },
                 "shim": {
                     "colpick": ["jquery"]
